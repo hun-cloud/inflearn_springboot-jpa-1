@@ -38,6 +38,9 @@ public class MemberApiController {
         return new Result(collect.size(), collect);
     }
 
+
+
+
     @Data
     @AllArgsConstructor
     static class Result<T> {
